@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ocean
-  m_Shader: {fileID: 4800000, guid: 3bf7f38975029df45b628edfae7b5a02, type: 3}
+  m_Name: Arvores 1
+  m_Shader: {fileID: 4800000, guid: 3784c8df0069d0348b4731aa62c75741, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,20 +44,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0a6987ff6c5b3c44d926d02cd990eec8, type: 3}
-        m_Scale: {x: 100, y: 100}
+        m_Texture: {fileID: 2800000, guid: d53d9e66b2f45c844b58980031c10f3f, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 4babd21fcfe977e44a0930e4efca6ecb, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OldTex:
+        m_Texture: {fileID: 2800000, guid: 0222a7ace5c07e44aad96ba0b5aca920, type: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
@@ -94,8 +94,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LeafSelect: 0
     - _Metallic: 0
-    - _NormalForce: 1.39
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -105,6 +105,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
+    - _WindForce: 0.007
+    - _WindSelect: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -113,7 +115,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5081994201816406533
+--- !u!114 &8209902090936286904
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
