@@ -5,7 +5,7 @@ Shader "PUCLitShaderSnow"
         _MainTex ("Texture", 2D) = "white" {}
         _OldTex("OldTexture", 2D) = "white" {}
         _WindSelect("WindSelect", Range(0,1)) = 0.5
-        _WindForce("WindForce", Range(0,0.002)) = 0.5
+        _WindForce("WindForce", Range(0,0.1)) = 0.5
         _LeafSelect("SnowForce", Range(0,5)) = 0.5
     }
         SubShader

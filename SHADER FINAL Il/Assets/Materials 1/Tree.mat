@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 363e97a7cb4cb4841906eef02ecb69e7, type: 3}
+        m_Texture: {fileID: 2800000, guid: d53d9e66b2f45c844b58980031c10f3f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OldTex:
-        m_Texture: {fileID: 2800000, guid: d999738a5b68c8c41b6d27f434c59f27, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0222a7ace5c07e44aad96ba0b5aca920, type: 3}
         m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -94,7 +94,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LeafSelect: 1.63
+    - _LeafSelect: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -105,8 +105,8 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WindForce: 0.00029
-    - _WindSelect: 0.714
+    - _WindForce: 0.007
+    - _WindSelect: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
